@@ -1,0 +1,29 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 12, 2023 - 09:30:47
+Django version 2.2.5, using settings 'bookmanager.settings'
+Starting development server at http://0.0.0.0:8888/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[12/May/2023 09:33:02] "GET / HTTP/1.1" 200 16348
+[12/May/2023 09:33:02] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[12/May/2023 09:33:02] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[12/May/2023 09:33:02] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[12/May/2023 09:33:02] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+Not Found: /favicon.ico
+[12/May/2023 09:33:02] "GET /favicon.ico HTTP/1.1" 404 1980
+[12/May/2023 09:33:11] "GET /admin HTTP/1.1" 301 0
+[12/May/2023 09:33:11] "GET /admin/ HTTP/1.1" 302 0
+[12/May/2023 09:33:11] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+[12/May/2023 09:33:11] "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+[12/May/2023 09:33:11] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17944
+[12/May/2023 09:33:11] "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 12, 2023 - 09:31:34
+Django version 2.2.5, using settings 'bookmanager.settings'
+Starting development server at http://0.0.0.0:8888/
+Quit the server with CONTROL-C.
