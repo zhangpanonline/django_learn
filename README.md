@@ -7,3 +7,5 @@
 #### 5. [Django站点管理](?5.Django站点管理.md)
 #### 6. [Django视图、路由、模板](?6.Django视图、路由、模板.md)
 #### 7. [Django配置文件和静态文件](?7.Django配置文件和静态文件.md)
+#### 8. [Django模型配置](?8.Django模型配置.md)
+#### 9. [Django定义模型类](?9.Django定义模型类.md)
