@@ -24,6 +24,7 @@ class BookInfo(models.Model):
     commentcount = models.IntegerField(default=0, verbose_name='评论量')
     is_delete = models.BooleanField(default=False, verbose_name='逻辑删除')
 
+    # 系统会自动添加一个 peopleinfo_set=[PeopleInfo, PeopleInfo, ...] 的隐藏字段
     class Meta:
         db_table = 'bookinfo'  # 指明数据库表名
         verbose_name = '书籍管理'  # 在 admin 站点中显示的名称
