@@ -9,5 +9,7 @@ def create_book(request):
 
 
 def shop(request, city_id, shop_id):
-    print(city_id, shop_id)
+    query_params = request.GET
+    print(query_params)
+    print(query_params.getlist('order'))
     return HttpResponse(city_id + shop_id)
